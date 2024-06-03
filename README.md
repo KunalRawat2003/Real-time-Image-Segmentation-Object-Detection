@@ -1,12 +1,6 @@
-# Real-time-Object-Detection-and-Tracking-with-YOLOv8-Streamlit
-
 # <span style="color:deepskyblue"> Real-time Object Detection and Tracking with YOLOv8 & Streamlit </span>
 
 This repository is an extensive open-source project showcasing the seamless integration of **object detection and tracking** using **YOLOv8** (object detection algorithm), along with **Streamlit** (a popular Python web application framework for creating interactive web apps). The project offers a user-friendly and customizable interface designed to detect and track objects in real-time video streams from sources such as RTSP, UDP, and YouTube URLs, as well as static videos and images.
-
-
-## <span style="color:deepskyblue">Explore Implementation Details on Medium (3 parts blog series) </span>
-For a deeper dive into the implementation, check out my three-part blog series on [Medium](https://medium.com/@mycodingmantras), where I detail the [step-by-step process of creating this web application](https://medium.com/@mycodingmantras/building-a-real-time-object-detection-and-tracking-app-with-yolov8-and-streamlit-part-1-30c56f5eb956).
 
 
 ## <span style="color:deepskyblue">WebApp Demo on Streamlit Server</span>
@@ -14,7 +8,7 @@ For a deeper dive into the implementation, check out my three-part blog series o
 Thank you team [Streamlit](<https://github.com/streamlit/streamlit>) for the community support for the cloud upload. 
 
 This app is up and running on Streamlit cloud server!!! You can check the demo of this web application on this link 
-[yolov8-streamlit-detection-tracking-webapp](https://codingmantras-yolov8-streamlit-detection-tracking-app-njcqjg.streamlit.app/)
+[https://kundan-raj301-real-time-object-detection-and-trackin-app-fu1pau.streamlit.app/]
 
 ## <span style="color:deepskyblue"> Tracking With Object Detection Demo</span>
 
@@ -32,11 +26,9 @@ This app is up and running on Streamlit cloud server!!! You can check the demo o
 
 ### Segmentation task on image
 
-<img src="https://github.com/CodingMantras/yolov8-streamlit-detection-tracking/blob/master/assets/segmentation.png" >
-
 ## Requirements
 
-Python 3.6+
+Python 3.10
 YOLOv8
 Streamlit
 
@@ -46,14 +38,26 @@ pip install ultralytics streamlit pytube
 
 ## Installation
 
-- Clone the repository: git clone <https://github.com/CodingMantras/yolov8-streamlit-detection-tracking.git>
-- Change to the repository directory: `cd yolov8-streamlit-detection-tracking`
+- Clone the repository: 
+```
+git clone https://github.com/kundan-raj301/Real-time-Object-Detection-and-Tracking-with-YOLOv8-Streamlit.git
+
+```
+- Change to the repository directory:
+```
+ C:\Users\rajku\OneDrive\Desktop\Real-time-Object-Detection-and-Tracking-with-YOLOv8-Streamlit
+
+```
 - Create `weights`, `videos`, and `images` directories inside the project.
+
 - Download the pre-trained YOLOv8 weights from (<https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt>) and save them to the `weights` directory in the same project.
 
 ## Usage
 
-- Run the app with the following command: `streamlit run app.py`
+- Run the app with the following command: 
+```
+streamlit run app.py
+```
 - The app should open in a new browser window.
 
 ### ML Model Config
@@ -118,6 +122,9 @@ VIDEOS_DICT = {
 ## Acknowledgements
 
 This app uses [YOLOv8](<https://github.com/ultralytics/ultralytics>) for object detection algorithm and [Streamlit](<https://github.com/streamlit/streamlit>) library for the user interface.
+
+Special thanks to my supervision **Dharmendra Singh** (Web Infomax IT Solutions
+)for their invaluable guidance and support throughout this project.
 
 ### Disclaimer
 
