@@ -36,7 +36,13 @@ Streamlit
 pip install ultralytics streamlit pytube
 ```
 
-## Installation
+## Installation:
+- Clone the repository: 
+```
+git clone https://github.com/kundan-raj301/Real-time-Object-Detection-and-Tracking-with-YOLOv8-Streamlit.git
+
+```
+
 - Change to the repository directory:
 ```
  C:\Users\rajku\OneDrive\Desktop\Real-time-Object-Detection-and-Tracking-with-YOLOv8-Streamlit
@@ -52,11 +58,7 @@ conda create -n detection python=3.8 -y
 conda activate detection
 ```
 
-- Clone the repository: 
-```
-git clone https://github.com/kundan-raj301/Real-time-Object-Detection-and-Tracking-with-YOLOv8-Streamlit.git
 
-```
 
 - Create `weights`, `videos`, and `images` directories inside the project.
 
